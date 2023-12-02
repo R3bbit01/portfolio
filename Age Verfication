@@ -1,0 +1,12 @@
+# age and year verification
+# By James
+# Date: 12.1.2023
+
+print("What is the year today? ")
+year = input()
+print("What is your age? ")
+age = int(input())
+
+Born = (int(year)) - (int(age))
+
+print(f"You where Born in {Born} and you are {age} as of {year}")
